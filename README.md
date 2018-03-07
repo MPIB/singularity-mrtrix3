@@ -1,4 +1,6 @@
 # singularity-mrtrix3
+[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/692)
+
 Singularity recipes for base-images containing mrtrix3.
 
  - mrtrix3 is pulled from its [github repository](https://github.com/MRtrix3/mrtrix3) and build using cmake.
