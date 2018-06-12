@@ -22,7 +22,7 @@ cd $CLONE_DIR
 git clone $GITHUB_REPO
 cd $MRTRIX_BUILD_DIR
 git checkout $MRTRIX_VERSION
-python configure 
+python configure
 python build
 
 echo "export PATH=${MRTRIX_BUILD_DIR}/bin:$PATH" >> $SINGULARITY_ENVIRONMENT
